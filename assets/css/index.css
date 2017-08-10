@@ -1,0 +1,207 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
+
+/* font definitions */
+@font-face {
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Serif', serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  src: url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:400,700|PT+Serif:400,700);
+  color: #323232;
+}
+
+h1{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.875em;
+  font-weight: 700;
+  line-height: 2.8125em;
+}
+
+h2{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #00897f;
+  font-variant-caps: normal;
+  line-height: 2.8125em;
+ }
+
+h3{
+  font-family: "PT Serif", serif;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+p{
+  font-family: "PT Serif", serif;
+  font-size: .875em;
+  line-height: 1.75em;
+}
+
+a{
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #f26522;
+}
+
+/* body foundational rules */
+body {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  display: inline-block;
+  padding-left: 5%;
+  text-align:center;
+  vertical-align: middle;
+}
+
+img{
+  display: block;
+  padding:0;
+  height:auto;
+  max-width: 100%;
+}
+
+box{
+  height: 225px;
+  width: 225px;
+  padding:30px;
+  display:inline-block;
+}
+
+box h2{
+  line-height: 1.5625em;
+  text-align: center;
+}
+
+.box-text{
+  text-align: left;
+}
+
+/* nav-bar */
+nav {
+  height: 5em;
+  width: 100%;
+  padding: 2%;
+  display: inline-block;
+}
+
+nav h1{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+nav p{
+  font-family: "PT Sans", sans-serif;
+  font-size: .9em;
+}
+
+nav li{
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* main div*/
+.cat-pic {
+  margin-bottom: 5em;
+}
+
+.main {
+  width: 100%;
+}
+
+.one-stop {
+  text-align: center;
+  margin: 0 25% 5em 25%;
+}
+
+.kat, .mavis{
+  background-color: #eeeeee;
+  margin:0;
+  vertical-align: middle;
+}
+.kat{
+  margin:0 0 5em 20%;
+}
+.mavis{
+  margin:0 20% 5em 60px;
+}
+
+.cat-row{
+  margin:20px auto 5em auto;
+  padding:55px;
+}
+.mini-cats{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.in-touch{
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 5em;
+  text-align: center;
+}
+
+.hours, .address{
+  background-color: #fff;
+  height:150px;
+  vertical-align: middle;
+}
+
+.address {
+  margin: 0 0 0 60px;
+}
+
+/* footer */
+footer{
+  background-color: #00897f;
+  height: 5em;
+  text-align: center;
+  padding: 30px;
+}
+
+footer h1{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #fff
+}
