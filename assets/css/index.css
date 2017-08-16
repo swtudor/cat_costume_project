@@ -104,10 +104,6 @@ box h2{
   text-align: center;
 }
 
-.box-text{
-  text-align: left;
-}
-
 /* nav-bar */
 nav {
   height: 80px;
@@ -179,10 +175,15 @@ nav li{
   background-color: #fff;
   height:150px;
   vertical-align: middle;
+	text-align: left;
 }
 
 .address {
-  margin: 0 0 0 60px;
+  margin: 0 0 0 4.444444%;
+}
+.street-addy{
+	display:inline-block;
+	width: 66%;
 }
 
 /* footer */
