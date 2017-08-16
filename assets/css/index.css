@@ -181,8 +181,11 @@ nav li{
 .address {
   margin: 0 0 0 4.444444%;
 }
-.street-addy{
+.addy .street-addy{
 	display:inline-block;
+	vertical-align: baseline;
+}
+.street-addy{
 	width: 66%;
 }
 
