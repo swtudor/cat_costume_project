@@ -93,8 +93,8 @@ img{
 }
 
 box{
-  height: 35%;
-  width: 18.518518%;
+  height: 15.625em;
+  width: 15.625em;
   padding:2.5%;
   display:inline-block;
 }
@@ -152,15 +152,15 @@ nav li{
   vertical-align: middle;
 }
 .kat{
-  margin:0 0 5.925925% 22.5%;
+  margin:0 0 5.925925% 20%;
 }
 .mavis{
-  margin:0 22.5% 5.925925% 4.444444%;
+  margin:0 auto 5.925925% 4.444444%;
 }
 
 .cat-row{
-  margin:1.481481% 13% 5.925925% 13%;
-  padding:5%%;
+  margin:1.481481% auto 5.925925% 10%;
+  padding:0;
 }
 .mini-cats{
   height: 15.625em;
