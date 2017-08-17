@@ -139,8 +139,12 @@ nav li{
 }
 
 .one-stop {
-  text-align: center;
+  text-align: left;
   margin: 0 22.5% 5.925925% 22.5%;
+}
+
+.one-stop h2{
+	text-align: center;
 }
 
 .kat, .mavis{
@@ -174,7 +178,7 @@ nav li{
 .hours, .address{
   background-color: #fff;
   height:9.375em;
-	width:20%;
+	width:25%;
   vertical-align: middle;
 	text-align: left;
 }
@@ -182,13 +186,10 @@ nav li{
 .address {
   margin: 0 0 0 4.444444%;
 }
-.addy .street-addy{
-	display:inline-block;
-	vertical-align: middle;
-	padding:0;
-}
-.street-addy{
 
+.addy {
+	display:inline-block;
+	vertical-align: top;
 }
 
 /* footer */
@@ -206,6 +207,7 @@ footer h1{
   font-size: 1.25em;
   color: #fff
 }
+
 /* On devices wider than 660px */
 @media(min-width: 660px) {
 }
