@@ -93,8 +93,8 @@ img{
 }
 
 box{
-  height: 250px;
-  width: 250px;
+  height: 35%;
+  width: 18.518518%;
   padding:2.5%;
   display:inline-block;
 }
@@ -159,8 +159,8 @@ nav li{
   padding:5%%;
 }
 .mini-cats{
-  height: 250px;
-  width: 250px;
+  height: 15.625em;
+  width: 15.625em;
   border-radius: 50%;
 }
 
@@ -173,7 +173,8 @@ nav li{
 
 .hours, .address{
   background-color: #fff;
-  height:150px;
+  height:9.375em;
+	width:20%;
   vertical-align: middle;
 	text-align: left;
 }
@@ -183,10 +184,11 @@ nav li{
 }
 .addy .street-addy{
 	display:inline-block;
-	vertical-align: baseline;
+	vertical-align: middle;
+	padding:0;
 }
 .street-addy{
-	width: 66%;
+
 }
 
 /* footer */
