@@ -14,7 +14,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
   box-sizing: border-box;
@@ -116,6 +115,7 @@ nav h1{
   font-family: "PT Sans Narrow", sans-serif;
   font-weight: 700;
   font-size: 1.5em;
+	line-height: 1.5em;
 }
 
 nav p{
@@ -135,7 +135,6 @@ nav li{
 
 .main {
   width: 100%;
-	margin: 0 auto;
 }
 
 .one-stop {
