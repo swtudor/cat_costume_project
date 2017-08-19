@@ -213,22 +213,31 @@ footer h1{
   color: #fff
 }
 
-/* On devices wider than 1080px */
-/* muted
-@media(min-width: 1080px){
+/* On devices narrower than 940px */
+@media(max-width: 940px) {
+	.one-stop{
+		width: 80%;
+		padding: 3%;
+	}
 	.about{
-		margin: 6% auto 6% 22.5%
-	}
-	.cat-row{
-	  margin:1.481481% auto 5.925925% 10%;
+		margin: 6% auto;
+		width: 80%;
+		padding: 0;
 	}
 
-} */
+	.kat, .mavis{
+	 width: 90%;
+	 height: 7.8125em;
+	 display: block;
+	 padding: 3%;
+	}
+	.mavis {
+		margin: 6% 0 0 0;
+	}
+	
 
-/* On devices wider than 660px */
-@media(min-width: 660px) {
 }
 
-/* On devices wider than 940px */
-@media(min-width: 940px) {
+/* On devices smaller than 660px */
+@media(max-width: 675px) {
 }
