@@ -21,15 +21,6 @@ time, mark, audio, video {
 }
 
 /* font definitions */
-@font-face {
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'PT Serif', serif;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-weight: 700;
-  src: url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:400,700|PT+Serif:400,700);
-  color: #323232;
-}
-
 h1{
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.875em;
@@ -68,7 +59,9 @@ a{
 /* body basic styles */
 body {
   background-color: #ffffff;
-  width: 100%; /* 1350px wide */
+  display: flex;
+	flex-flow: column wrap;
+	align-content: space-between;
 }
 
 ul{
@@ -109,6 +102,7 @@ nav {
   width: 100%;
   padding: 2% 5% 2% 2%;
   display: inline-block;
+	flex-basis: 15%;
 }
 
 nav h1{
@@ -152,6 +146,7 @@ nav li{
 .about{
 	margin: 6% auto;
 	width: 39.625em;
+	text-align: center;
 }
 .kat, .mavis{
   background-color: #eeeeee;
@@ -165,6 +160,7 @@ nav li{
 .cat-row{
   margin:1.481481% auto 5.925925% auto;
   width: 54.511875em;
+	text-align:center;
 }
 .mini-cats{
   height: 15.625em;
@@ -204,6 +200,7 @@ footer{
   text-align:center;
   padding:1.5% 0 3.5% 0;
 	margin:0;
+	flex-basis: 15%;
 }
 
 footer h1{
@@ -220,7 +217,7 @@ footer h1{
 		padding: 3%;
 	}
 	.about{
-		margin: 6% auto;
+		margin: 0;
 		width: 80%;
 		padding: 0;
 	}
@@ -234,8 +231,9 @@ footer h1{
 	.mavis {
 		margin: 6% 0 0 0;
 	}
-	
-
+	.cats:first-child{
+		display: none;
+	}
 }
 
 /* On devices smaller than 660px */
